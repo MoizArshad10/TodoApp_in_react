@@ -3,10 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TodoListItem from './components/TodoListItem'
-import Weather from './components/Weather'
 
 function App() {
-  <Weather/>
   let [todoList , setTodoList] = useState([])
   const saveToDo = (e) =>{
     let toname = e.target.toname.value;
